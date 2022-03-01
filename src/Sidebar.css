@@ -1,0 +1,22 @@
+.sidebar{
+    padding: 25px;
+    padding-left: 10px;
+    flex:0.33;
+    position:fixed;
+    /* width:900px !important; */
+    width:320px;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow: hidden;  
+}
+.sidebar:hover::-webkit-scrollbar {
+    height: 5px;
+    width: 10px;
+ }
+.sidebar:hover{
+    overflow-y: scroll;
+}
+.sidebar:hover::-webkit-scrollbar-thumb{
+    border-radius:999px;
+    background: rgb(189, 189, 189);
+}

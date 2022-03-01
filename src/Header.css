@@ -1,0 +1,90 @@
+.header{
+    /*              👇 Left and Right Padding*/
+    padding: 15px 20px;
+    /*        👆 Top and bottom padding */
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    position:fixed;
+    background-color: white;
+    z-index:100;
+    /* top: 0; */
+    box-shadow: 0px 5px 8px -9px rgba(0,0,0,0.75);
+
+}
+.header_left{
+    display:flex;
+    justify-content:space-between;
+} 
+.header-options{
+    padding:0px 30px;
+    display:flex;
+    /* Align in y-axis Center */
+    align-items:center;
+
+    /* Cursor will become pointer */
+    cursor:pointer;
+
+}
+.header_left > img{
+    align-items:center;
+    height: 50px;
+}
+.header_middle{
+    display:flex;
+    justify-content:space-between;
+}
+.header_right{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.header_input{
+    display:flex;
+    align-items:center;
+    /* Coloring padding color slightly darker to white */
+    background-color:#eff2f5;
+    padding:10px;
+    margin-left: 10px;
+    border-radius: 33px;
+}
+.header_input > input{
+    border:none;
+    /* Making background of serch input transparent */
+    background-color:transparent;
+    /* Removing outline to look more better */
+    outline-width: 0;
+}
+
+
+/* This will change all icon color in header-options class. */
+.header-options > .MuiSvgIcon-root{
+    color:grey;
+}
+
+
+/* When we put our cusor on icons then it will become blue. */
+.header-options:hover > .MuiSvgIcon-root{
+    color:#2e81f4;
+}
+.header-options:hover{
+    background-color:#eff2f5;
+    border-radius: 10px;
+    align-items:center;
+    padding:0px 30px;
+    border-bottom: none;
+}
+.header_info{
+    display:flex;
+    align-items:center;
+}
+.header_info > h4{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header-active{
+    border-bottom: 4px solid #2e81f4;
+}
+.header-active > .MuiSvgIcon-root{
+    color: #2e81f4;
+}

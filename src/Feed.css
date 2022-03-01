@@ -1,0 +1,12 @@
+.feed{
+    flex:1;
+    /* padding:30px ; */
+    width:500px;
+    /* background-color:green; */
+    margin-left: 420px;
+    margin-right: 460px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}

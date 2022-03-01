@@ -1,0 +1,60 @@
+.messageSender_bottom{
+    display: flex;
+    justify-content: space-evenly;
+    /* Their is a difference b/w space between and space evenly
+    In space-evenly makes that content center and then align distributivly.*/
+    padding:5px 50px;
+}
+.messageSender_options > .MuiSvgIcon-root{
+    font-size:xx-large;
+}
+.messageSender_options{
+    display: flex;
+    align-items:center;
+    color: grey;
+    margin:5px;
+    padding:10px 20px;
+    cursor: pointer; 
+}
+.messageSender_options >h3{
+    font-size: medium;
+    margin-left: 10px;
+}
+.messageSender_options:hover{
+    background-color:#eff2f5;
+    border-radius: 20px;
+}
+.messageSender_top{
+    display:flex;
+    border-bottom:1px solid #eff2f5;
+    
+    padding: 15px;
+}
+
+.messageSender_top > form{
+    flex: 1;
+    display: flex;
+}
+
+.messageSender_top > form> input{
+    outline-width: 0;
+    border:none;
+    padding:5px 20px;
+    margin:0px 10px;
+    background-color: #eff2f5;
+    border-radius: 999px;
+}
+.messageSender_top > form> button{
+    display:none;
+}
+.messageSender_input{
+    /* flex:1 will make that class objects ot occupies the max area as possible */
+    flex:1;
+}
+.messageSender{
+    background-color: white;
+    border-radius:15px;
+    box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+    width: 100%;
+    margin-top: 30px;
+}

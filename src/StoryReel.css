@@ -1,0 +1,26 @@
+.storyReel{
+    display:flex;
+    /* margin-bottom: 10px; */
+    /* background-color:red; */
+    width:100%;
+    justify-content:none;
+    overflow-x: scroll;
+    overflow: hidden;
+}
+.storyReel:hover{
+    overflow-x: scroll;
+}
+.storyReel:hover::-webkit-scrollbar {
+   height: 5px;
+   width: 10px;
+}
+.storyReel:hover::-webkit-scrollbar-track {
+    background:#eff2f5d0;
+}
+.storyReel:hover::-webkit-scrollbar-thumb {
+    border-radius:999px;
+    background: rgb(189, 189, 189);; 
+}
+
+
+  
